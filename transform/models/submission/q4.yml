@@ -1,0 +1,16 @@
+models:
+  - name: q4
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: poorvapandya09@gmail.com
+    columns:
+      - date_local
+        description: Year of sales
+      - country_name
+        description: Name of country
+      - vendor_name
+        description: Name of vendor
+      - total_gmv
+        description: GMV calculated for vendor with highest gmv in each country per year
+    
