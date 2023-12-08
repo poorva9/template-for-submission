@@ -1,5 +1,5 @@
 WITH q3_ref AS (
-  SELECT * FROM {{ ref('orders', 'q3') }}
+  SELECT * FROM {{ ref('qn2-2', 'q3') }}
 )
 
 
